@@ -80,15 +80,6 @@ html body main section {
   background-repeat: no-repeat;
   background-size: contain;
 }
-html body main section h2 {
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  font-size: 27pt;
-  font-weight: 700;
-  color: white;
-  margin: 0.5cm 0px 0px 1cm;
-  grid-area: in;
-}
 html body main section aside {
   margin: 5px;
   font-family: "Montserrat", sans-serif;
@@ -102,13 +93,13 @@ html body main section aside {
 html body main section aside h3 {
   font-weight: 400 !important;
 }
-html body main section div {
+html body main section #description {
   margin: 5px;
   grid-area: des;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
 }
-html body main section div div {
+html body main section #description div {
   font-family: "Montserrat", sans-serif;
   color: white;
 }

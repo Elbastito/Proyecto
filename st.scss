@@ -80,15 +80,6 @@ html{
                 background-repeat: no-repeat;
                 background-size: contain;
     
-                h2{
-                    font-family: 'Montserrat', sans-serif;
-                    font-style: italic;
-                    font-size: 27pt;
-                    font-weight: 700;
-                    color: white;
-                    margin: .5cm 0px 0px 1cm;
-                    grid-area: in;
-                }
                 aside{
                     margin: 5px;
                     font-family: 'Montserrat', sans-serif;
@@ -102,11 +93,11 @@ html{
                         font-weight: 400!important;
                     }
                 }
-                div{
+                #description{
                     margin: 5px;
                     grid-area: des;
                     display: flex;
-                    align-items: flex-end;
+                    align-items: flex-start;
                     div{
                         font-family: 'Montserrat', sans-serif;
                         color: white;
