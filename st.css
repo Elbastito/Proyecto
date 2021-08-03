@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-weight: 100;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 10% 70% 20%;
+  grid-template-areas: "barra" "cuerpo" "pie";
+}
+body header {
+  width: 100%;
+  height: 100%;
+  grid-area: barra;
+}
+body header nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: darkgray;
+}
+body header nav div {
+  width: 10%;
+}
+body header nav input {
+  margin: 10px;
+  width: 70%;
+}
+body main {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+body main section {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 20% 80%;
+  grid-template-areas: "in in" "des as" "des as";
+  background-image: url(https://images.mubicdn.net/images/film/391/cache-25588-1617995748/image-w1280.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body main section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40pt;
+  font-style: italic;
+  font-weight: 700;
+  color: white;
+  grid-area: in;
+}
+body main section aside {
+  margin: 5px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  background-color: transparent;
+  grid-area: as;
+}
+body main section aside h3 {
+  font-weight: 400 !important;
+}
+body main section div {
+  margin: 5px;
+  grid-area: des;
+  display: flex;
+  align-items: flex-end;
+}
+body main section div div {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 70% 30%;
+  grid-template-areas: "ayu" "redes";
+  background-color: black;
+}
+footer nav {
+  grid-area: ayu;
+  width: 100%;
+  height: 100%;
+}
+footer #divino {
+  grid-area: redes;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+footer #divino .redes {
+  margin: 0px 10px 0px 10px;
+}
+
+.imajen {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*# sourceMappingURL=st.css.map */
