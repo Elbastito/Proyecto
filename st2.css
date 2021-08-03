@@ -73,10 +73,10 @@ html body main section {
   height: 100%;
   margin: 0px;
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 20% 80%;
   grid-template-areas: "in in" "des as" "des as";
-  background-image: url(https://images.mubicdn.net/images/film/391/cache-25588-1617995748/image-w1280.jpg);
+  background-image: url(https://images.alphacoders.com/641/641387.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -90,8 +90,8 @@ html body main section h2 {
   grid-area: in;
 }
 html body main section aside {
-  width: 100%;
-  height: 60%;
+  max-width: 100%;
+  height: 70%;
   display: flex;
   justify-content: space-between;
   margin: 5px;
@@ -105,8 +105,11 @@ html body main section aside {
 }
 html body main section aside div {
   margin: 0px 0px 0px 10px;
-  max-width: 40%;
-  max-width: 40%;
+  max-width: 30%;
+}
+html body main section aside div img {
+  border: 1px solid black;
+  border-radius: 16px;
 }
 html body main section #descripcion {
   margin: 5px;
