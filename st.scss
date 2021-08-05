@@ -97,10 +97,16 @@ html{
                     margin: 5px;
                     grid-area: des;
                     display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
                     align-items: flex-start;
                     div{
                         font-family: 'Montserrat', sans-serif;
                         color: white;
+                    }
+                    div:nth-child(2){
+                        width: 100px;
+
                     }
                     
                 }

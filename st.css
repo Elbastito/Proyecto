@@ -97,11 +97,16 @@ html body main section #description {
   margin: 5px;
   grid-area: des;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: flex-start;
 }
 html body main section #description div {
   font-family: "Montserrat", sans-serif;
   color: white;
+}
+html body main section #description div:nth-child(2) {
+  width: 100px;
 }
 html body footer {
   width: 100%;
