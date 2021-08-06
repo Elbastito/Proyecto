@@ -78,7 +78,8 @@ html{
                 grid-template-areas: "in in" "des as" "des as";
                 background-image: url(https://images.mubicdn.net/images/film/391/cache-25588-1617995748/image-w1280.jpg);
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-size: cover;
+                background-position: center;
     
                 aside{
                     margin: 5px;

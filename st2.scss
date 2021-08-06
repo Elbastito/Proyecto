@@ -78,7 +78,8 @@ html{
                 grid-template-areas: "in in" "des as" "des as";
                 background-image: url(https://images.alphacoders.com/641/641387.jpg);
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-size: cover;
+                background-position: center;
     
                 h2{
                     font-family: 'Montserrat', sans-serif;
