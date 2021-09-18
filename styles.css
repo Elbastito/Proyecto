@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+#principal{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.imagenes{
+    max-width: 250px;
+    max-height: 350px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+#uno{
+    width: 33.33%;
+    margin: 2px;
+}
+
+#dos{
+    width: 33.33%;
+    margin: 2px;
+}
+
+#tres{
+    width: 33.33%;
+    margin: 2px;
+}
